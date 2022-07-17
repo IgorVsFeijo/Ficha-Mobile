@@ -1,0 +1,7 @@
+{
+  "name": "Ficha Ordem Mobile",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular"
+}

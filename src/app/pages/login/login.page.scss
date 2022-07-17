@@ -1,0 +1,45 @@
+.login{
+
+    align-items: center;
+   
+.fundo{
+ 
+    min-width: 100vh;
+    position: absolute;
+    top: 0;
+    left: 0;
+    transform:translateY(-20px);
+    opacity: 100;
+    }
+}
+
+.container{
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-image: linear-gradient(0deg, black, rgba(0, 0, 0, 0.025));
+    border-top-left-radius: 12px;
+    border-top-right-radius: 12px;
+    margin-left: 2vw;
+    margin-top: 2vh;
+    margin-right: 2vw;
+    height: 100vh;
+    z-index: 2;
+    
+    .logo{
+        position: relative;
+        text-align: center;
+        
+
+        .sim{
+        margin-top: auto;
+        margin-bottom: auto;
+        opacity: 0.2;
+        transform: translateY(-75px);       
+    }
+    }
+}
+
